@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public record NumberToken() {
+public record NumberToken(Integer value) implements Token {
+    @Override
+    public TokenType type() {
+        return TokenType.NUMBER;
+    }
 }

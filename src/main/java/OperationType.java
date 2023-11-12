@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public enum OperationType {
+public enum OperationType {
+    PLUS,
+    MINUS,
+    MULTIPLY,
+    DIVIDE,
 }
